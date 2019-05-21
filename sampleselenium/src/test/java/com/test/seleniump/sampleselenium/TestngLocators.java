@@ -27,6 +27,7 @@ System.out.println(dr.getTitle());
 File src=dr.getScreenshotAs(OutputType.FILE);
 FileUtils.copyFile(src, new File("C:\\Users\\test\\"+dr.getTitle()+".png"));
 Thread.sleep(5000);
+System.out.println(dr.getTitle());
 dr.quit();
 }
 }
