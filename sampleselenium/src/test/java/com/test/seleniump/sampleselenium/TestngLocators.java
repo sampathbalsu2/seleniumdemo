@@ -31,6 +31,7 @@ System.out.println(dr.getTitle());
 System.out.println(dr.getTitle());
 System.out.println(dr.getCurrentUrl());
 System.out.println("Test");
+System.out.println("sample");
 dr.quit();
 }
 }
