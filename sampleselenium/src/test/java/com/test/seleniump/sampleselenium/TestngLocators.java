@@ -30,6 +30,7 @@ Thread.sleep(5000);
 System.out.println(dr.getTitle());
 System.out.println(dr.getTitle());
 System.out.println(dr.getCurrentUrl());
+System.out.println("Test");
 dr.quit();
 }
 }
